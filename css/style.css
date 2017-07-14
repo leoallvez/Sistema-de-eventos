@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+	border-radius: 3px;
+	font-family: Verdana;
+	color: #2F4F4F;
+}
+
+.corpo{
+	background: #2F4F4F;
+}
+
+.principal h1, .principal h3{
+	color: #800000;
+	margin-left: 3%;
+}
+
+.principal{
+	width: 80%;
+	margin: 2% auto auto;
+	background: #FFF;
+	position: relative;
+	padding: 3%;
+}
+
+.formulario{
+	background-image: linear-gradient(to bottom,#800000,#B22222);
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	width: 90%;
+	max-height: 10%;
+	margin: 0% auto auto;
+	padding: 2%;
+	transition: all 1s;
+}
+
+
+.formulario fieldset{
+	margin: 1%;
+	
+	background: #800000;
+	border-radius: 5px;
+	z-index: 0;
+}
+
+.formulario label, .formulario span{
+	color:#FFF;
+	padding: 2%;
+	margin: 1%;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+.legend{
+	color:#FFF;
+	text-shadow: none;
+	background: none;
+	box-shadow: 0px 0px 0px #000;
+}
+
+input{
+	padding: 2%;
+}
+
+#login{
+	background-image: linear-gradient(to bottom,#B22222,#800000);
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+
+	margin: 8% auto auto;
+	padding: 2%;
+	width: 300px;
+	transition: all 1s;
+}
+
+input[type=text], input[type=date], input[type=email],input[type=password]{
+  
+	border-radius: 5px;
+	border: 1px solid #FFF;
+	margin: 1%;
+	transition: all 1s;
+}
+
+input[type=text]{
+	width: 60%;
+}
+
+input[type=text]:focus, input[type=date]:focus,input[type=email]:focus,input[type=password]:focus{
+	background: #800000;
+	outline: 2px solid #FFF;
+	color: #FFF;
+}
+
+input[type=submit], input[type=reset]{
+	background: #800000;
+	border: 1px solid #B22222;
+	color: #FFF;
+	margin: 1%;
+	transition: all 0.5s;
+}
+
+input[type=submit]:hover, input[type=reset]:hover{
+	background: #B22222;		
+}
+
+input[type=submit]:active, input[type=reset]:active{
+	font-size: 1.1em;
+}
+
+.tabela{
+	background-image: linear-gradient(to bottom,#B22222,#800000);
+	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+	font-size: 0.7em;
+	width: 95%;
+	height: auto;
+	margin: 3% auto 3%;
+	padding: 2%;
+	transition: all 1s;
+	position: relative;
+}
+
+.tabela a{
+	color: #B22222;
+	background: #FFF;
+	border: none;
+	transition: all 0.5s;
+}
+
+.tabela th {
+	border: 1px solid #B22222;
+	background: #800000;
+    color: #FFF;
+    padding: 1%;
+    font-size: 1.2em;
+}
+
+.tabela td{
+	border: 1px solid #B22222;
+	background: #FFF;
+    color: #B22222;
+    text-align: center;	
+    padding: 1%;
+    transition: all 0.5s;
+}
+
+
+.tabela tr:hover td{
+	/**border: 1px solid #FFF;*/
+	background: #800000;
+    color: #FFF;
+    text-align: center;	
+}
+
+.tabela tr:hover a{
+	background: #800000;
+    color: #FFF;
+    text-align: center;	
+}
+
+
